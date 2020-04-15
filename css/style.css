@@ -23,15 +23,14 @@ h4 {
   margin: 0 auto;
 }
 
-img {
+/* img {
   width: 330px;
-}
+} */
 
 button {
   border-style: hidden;
   font-family: "Poppins", sans-serif;
 }
-
 header {
   padding: 21px 21px 107px 21px;
 }
@@ -50,6 +49,76 @@ header button {
   float: right;
 }
 
+.community {
+  padding: 0 30px;
+}
+
+.community h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: -2vh;
+}
+
+/* .hero {
+  padding: 0 30px;
+}
+
+.hero .hero_text {
+  text-align: center;
+}
+
+.hero .hero_text h1 {
+  margin: 1rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: hsl(192, 100%, 9%);
+}
+
+.hero .hero_text p {
+  padding-bottom: 2rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+  color: hsl(192, 100%, 9%);
+}
+
+.hero button {
+  width: 178px;
+  padding: 1em;
+  color: white;
+  background: #ff51bf;
+  border-radius: 33px;
+}
+
+.hero img {
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.hero .ratings {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  margin: 0 auto;
+}
+
+.hero .ratings .rate:nth-child(1) {
+  margin-bottom: 82px;
+}
+
+.hero .ratings .rate img {
+  width: 30px;
+}
+
+.hero .ratings .rate h2 {
+  font-size: 3.5em;
+}
+
+.hero .ratings .rate p {
+  color: #555555;
+} */
+
 @media (min-width: 768px) {
   header img {
     width: 181px;
@@ -58,10 +127,57 @@ header button {
     width: 101px;
     height: 33px;
   }
+
+  /* .hero img {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 9rem;
+    padding-right: 1rem;
+  }
+  .hero .ratings {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .hero .ratings .rate:nth-child(1) {
+    margin-bottom: 0;
+    margin-right: 250px;
+  } */
 }
 
 @media (min-width: 1024px) {
   header {
     padding: 59px 59px 182px 59px;
   }
+}
+
+@media (min-width: 1200px) {
+  /* .hero .hero_text h1 {
+    font-size: 2.5rem;
+    padding: 0 163px;
+  }
+  .hero .hero_text p {
+    font-size: 1.1em;
+    padding: 36px 350px;
+  }
+
+  .hero button {
+    padding: 0;
+    width: 298px;
+    height: 50px;
+    font-size: 1em;
+  }
+
+  .hero .ratings {
+    margin: 0;
+  }
+  .hero .ratings .rate:nth-child(1) {
+    margin: 0;
+  }
+
+  .hero img {
+    margin: 0 auto;
+    width: 50%;
+    
+  } */
 }
