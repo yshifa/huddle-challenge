@@ -39,13 +39,17 @@ header img {
 }
 
 header button {
-  background-color: white;
-  color: #ff51bf;
+  width: 75px;
+  border-radius: 1rem;
+  background: white;
+  border-color: hsl(322, 100%, 66%);
+  font-size: 0.7rem;
   outline: none;
-  border: 1px solid #ff51bf;
   border-radius: 100px;
-  width: 70px;
-  height: 23px;
+  border: 1px solid #ff51bf;
+  color: hsl(322, 100%, 66%);
+  border-width: 1px;
+  height: 30px;
 }
 
 .community {
@@ -312,34 +316,6 @@ footer {
   .ready button {
     width: 20vw;
   }
-
-  /* footer {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
-    justify-content: space-between;
-    padding: 5rem;
-  }
-  .flex-news {
-    width: 40%;
-    margin-left: 3rem;
-  }
-
-  .flex-news form {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    justify-self: start;
-  }
-  .flex-news form input {
-    width: 64%;
-  }
-  .flex-news form button {
-    width: 30%;
-    margin: 0 auto;
-    margin-left: -15vw;
-    height: 48px;
-  } */
 }
 
 @media (min-width: 1024px) {
