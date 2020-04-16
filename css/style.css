@@ -77,6 +77,12 @@ header button {
   font-weight: 600;
 }
 
+.community button:hover {
+  color: #ff51bf;
+  background-color: white;
+  border: 1px solid #ff51bf;
+}
+
 .image-1 {
   display: flex;
   justify-content: center;
@@ -218,6 +224,12 @@ header button {
   outline: none;
   border-width: 0rem;
 }
+
+.ready button:hover {
+  color: #ff51bf;
+  background-color: white;
+  border: 1px solid #ff51bf;
+}
 .last img {
   width: 100%;
   margin-bottom: -1vh;
@@ -350,6 +362,12 @@ footer {
     font-size: 1rem;
   }
 
+  .community button:hover {
+    color: #ff51bf;
+    background-color: white;
+    border: 1px solid #ff51bf;
+  }
+
   .image-1 {
     text-align: center;
     height: 70vh;
@@ -381,6 +399,7 @@ footer {
   .desktop-top-1 {
     height: 164px;
     width: 100%;
+    background-size: cover;
     background-image: url("/images/bg-section-top-desktop-1.svg");
     background-repeat: no-repeat;
   }
@@ -418,6 +437,8 @@ footer {
   .desktop-bottom-1 {
     background-image: url("/images/bg-section-bottom-desktop-1.svg");
     height: 20vh;
+    width: 100%;
+    background-size: cover;
     margin-bottom: 5rem;
     background-repeat: no-repeat;
   }
@@ -454,6 +475,7 @@ footer {
     background-image: url("/images/bg-section-top-desktop-2.svg");
     width: 100%;
     height: 155px;
+    background-size: cover;
     background-repeat: no-repeat;
   }
   .your-users-dsk {
@@ -490,11 +512,18 @@ footer {
     background-image: url("/images/bg-section-bottom-desktop-2.svg");
     width: 100%;
     height: 20vh;
+    background-size: cover;
     background-repeat: no-repeat;
   }
   .ready button {
-    font-size: 0.8rem;
+    font-size: 1rem;
     width: 20vw;
+  }
+
+  .ready button:hover {
+    color: #ff51bf;
+    background-color: white;
+    border: 1px solid #ff51bf;
   }
 
   footer {
@@ -517,12 +546,14 @@ footer {
   }
   .flex-news form input {
     width: 64%;
+    font-size: 1rem;
   }
   .flex-news form button {
     width: 30%;
     margin: 0 auto;
-    margin-left: -20vh;
+    margin-left: -27vh;
     height: 48px;
+    font-size: 1.1rem;
   }
 
   .flex-huddle {
