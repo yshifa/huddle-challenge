@@ -357,10 +357,10 @@ footer {
     margin-bottom: 5rem;
   }
   .image-1 img {
-    width: 100vw;
-
+    width: 95vw;
     object-fit: contain;
   }
+
   .desk-flex {
     width: 95%;
     display: flex;
@@ -393,7 +393,7 @@ footer {
     padding: 2rem 5rem 2rem 5rem;
   }
   .grow-dsk img {
-    width: 40%;
+    width: 70%;
     height: 30%;
     margin: 0px;
     padding: 0px;
@@ -431,7 +431,7 @@ footer {
     margin-top: 3vh;
   }
   .flowing-convo img {
-    width: 40%;
+    width: 70%;
   }
   .flow-desk {
     width: 30%;
@@ -465,7 +465,7 @@ footer {
     padding: 2rem 5rem 2rem 5rem;
   }
   .your-users-dsk img {
-    width: 40%;
+    width: 70%;
   }
   .your-users-dsk section {
     width: 30%;
