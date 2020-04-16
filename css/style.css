@@ -531,4 +531,9 @@ footer {
   .huddle p {
     width: 60%;
   }
+  .curve {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
 }
