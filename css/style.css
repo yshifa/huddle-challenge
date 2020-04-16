@@ -19,7 +19,7 @@ h4 {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -339,13 +339,15 @@ footer {
     font-size: 2.5rem;
   }
   .community p {
-    width: 40%;
+    width: 60%;
     text-align: center;
     margin: 0 auto;
+    line-height: 1.5rem;
     margin-bottom: 1.4rem;
   }
   .community button {
     width: 25%;
+    font-size: 1rem;
   }
 
   .image-1 {
@@ -356,6 +358,7 @@ footer {
   }
   .image-1 img {
     width: 100vw;
+
     object-fit: contain;
   }
   .desk-flex {
@@ -490,8 +493,10 @@ footer {
     background-repeat: no-repeat;
   }
   .ready button {
+    font-size: 0.8rem;
     width: 20vw;
   }
+
   footer {
     display: flex;
     flex-direction: row-reverse;
